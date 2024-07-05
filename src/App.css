@@ -1,0 +1,17 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#root {
+  background-image: linear-gradient(to right, #A9F1DF, #FFBBBB);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-todo-container {
+  height: 80%;
+  width: 50%;
+  }

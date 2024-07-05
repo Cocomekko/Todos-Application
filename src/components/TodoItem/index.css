@@ -1,0 +1,47 @@
+.todos-list > li{
+  width: 100%;
+  font-family: "Roboto";
+}
+.todo-box{
+  width: 100%;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 0 0 0 20px;
+  background-color: rgba(250, 250, 250, 0.5);
+  box-sizing: border-box;
+  margin: 10px 0;
+  border: solid white 3px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 8px;
+  height: 45px; 
+}
+.todo-box-completed {
+  background-color: rgba(148, 212, 11, 0.2);
+  border-color: green; 
+  text-decoration: line-through;
+}
+
+.todo-buttons-box{
+  align-self: stretch;
+}
+.todo-box > div > button{
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 0 8px 8px 0;
+  font-size: 20px;
+  height: 100%;
+}
+.done {
+  background-color: green !important;
+border-radius: 0 !important;
+
+}
+.incomplete {
+  background-color: #a0a19d !important;
+border-radius: 0 !important;
+
+}
