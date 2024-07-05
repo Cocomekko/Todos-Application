@@ -34,9 +34,18 @@ const App = () => {
     const newList = todoList.filter((obj) => obj.id !== id)
     updateTodoList([...newList])
   }
-
+  
+  const editTodo = (id, updatedText) => {
+    const newList = todoList.map(obj => {
+      if(obj.id === id){
+        return {...obj, todo: updatedText} 
+    }
+      return obj
+    })
+    updateTodoList([...newList])
+  }
   return (
-    <TodoContext.Provider value={{ todos: [...todoList], addTodo, updateTodo, deleteTodo}}>
+    <TodoContext.Provider value={{ todos: [...todoList], addTodo, updateTodo, deleteTodo, editTodo}}>
       <div className="main-todo-container">
         <AddTodo />
         <TodoListView />

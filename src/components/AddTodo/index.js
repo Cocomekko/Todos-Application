@@ -25,7 +25,7 @@ const AddTodo = () => {
               placeholder="Add Todo"
               value={inputText}
               onChange={updateInput}
-              className="todo-input-box"
+              className="todo-input"
             />
             <button type="button" onClick={addTodoObj}>
               <IoMdAdd />

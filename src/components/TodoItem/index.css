@@ -27,6 +27,10 @@
 .todo-buttons-box{
   align-self: stretch;
 }
+.edit-button{
+  border-radius: 0 !important;
+  background-color: #fc4103 !important;
+}
 .todo-box > div > button{
   background-color: red;
   color: white;

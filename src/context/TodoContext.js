@@ -5,6 +5,7 @@ const TodoContext = React.createContext({
   addTodo: () => {},
   updateTodo: () => {},
   deleteTodo: () => {},
+  editTodo: () => {}
 })
 
 export default TodoContext

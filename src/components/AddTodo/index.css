@@ -3,7 +3,7 @@
   display: flex;
 
 }
-.todo-input-box > input{
+.todo-input {
   width: 88%;
   height: 30px;
   border-radius: 5px 0 0 5px;
